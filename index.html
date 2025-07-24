@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player | Rachit Pal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <body>
+    <div class="player">
+      <div class="player__header">
+        <div class="player__img player__img--absolute slider">
+          <button class="player__button player__button--absolute--nw playlist">
+            <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+          </button>
+          <button class="player__button player__button--absolute--center play">
+            <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+            <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+          </button>
+          <div class="slider__content">
+            <img class="img slider__img" src="https://image.tmdb.org/t/p/original/1azTyARpXTtspi28K9rcMIDaHFB.jpg" alt="cover">
+            <img class="img slider__img" src="image/2.jpg" alt="cover">
+            <img class="img slider__img" src="image/3.jpg" alt="cover">
+            <img class="img slider__img" src="image/4.jpg" alt="cover">
+            <img class="img slider__img" src="image/5.jpg" alt="cover">
+            <img class="img slider__img" src="image/6.jpg" alt="cover">
+            <img class="img slider__img" src="image/7.jpg" alt="cover">
+          </div>
+        </div>
+        <div class="player__controls">
+          <button class="player__button back">
+            <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+          </button>
+          <p class="player__context slider__context">
+            <strong class="slider__name"></strong>
+            <span class="player__title slider__title"></span>
+          </p>
+          <button class="player__button next">
+            <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+          </button>
+          <div class="progres">
+            <div class="progres__filled"></div>
+          </div>
+        </div>
+      </div>
+      <ul class="player__playlist list">
+
+        <!--- 1st -->
+        <li class="player__song">
+          <img class="player__img img" src="image/1.jpg" alt="cover">
+          <p class="player__context">
+            <b class="player__song-name">How you Like That</b>
+            <span class="flex">
+              <span class="player__title">Blackpink</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="novembe.mp3"></audio>
+        </li>
+
+        <!--- 2nd -->
+        <li class="player__song">
+          <img class="player__img img" src="image/2.jpg" alt="cover">
+          <p class="player__context">
+            <b class="player__song-name">MONEY</b>
+            <span class="flex">
+              <span class="player__title">Blackpink</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="novembe.mp3"></audio>
+        </li>
+
+        <!--- 3rd -->
+        <li class="player__song">
+          <img class="player__img img" src="image/3.jpg" alt="cover">
+          <p class="player__context">
+            <b class="player__song-name">Deewani Mastani</b>
+            <span class="flex">
+              <span class="player__title">Bajirao Mastani</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="music/3.mp3"></audio>
+        </li>
+
+        <!--- 4th -->
+        <li class="player__song">
+          <img class="player__img img" src="image/4.jpg" alt="cover">
+          <p class="player__context">
+            <b class="player__song-name">Nagada Sang Dhol</b>
+            <span class="flex">
+              <span class="player__title">Goliyo ki Raasleela</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="music/4.mp3"></audio>
+        </li>
+
+        <!--- 5th -->
+        <li class="player__song">
+          <img class="player__img img" src="image/5.jpg" alt="cover">
+          <p class="player__context ">
+            <b class="player__song-name">No Love</b>
+            <span class="flex">
+              <span class="player__title">Shubh</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="music/5.mp3"></audio>
+        </li>
+
+        <!--- 6th -->
+        <li class="player__song">
+          <img class="player__img img" src="image/6.jpg" alt="cover">
+          <p class="player__context">
+            <b class="player__song-name">Naacho Naacho</b>
+            <span class="flex">
+              <span class="player__title">RRR</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="music/6.mp3"></audio>
+        </li>
+
+        <!--- 7th -->
+        <li class="player__song">
+          <img class="player__img img" src="image/7.jpg" alt="cover">
+          <p class="player__context ">
+            <b class="player__song-name">Blinding Lights</b>
+            <span class="flex">
+              <span class="player__title">The Weeknd</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="music/7.mp3"></audio>
+        </li>
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

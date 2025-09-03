@@ -1,5 +1,5 @@
 const bgBody = ["#E3679B", "#93857A", "#FFB965", "#FF3A3A", "#2A3263", "#8CA7CC", "#FDB857", "#27d6b6", "#999059", "#ccc387", "#7d6e0b", "#f505f1", "#05f5d5", 
-                "#242e3b", "#fc4e03", "#c44108", "#cad8e0",];
+                "#242e3b", "#fc4e03", "#c44108", "#cad8e0", "#3c8535", "#b55de8", "#b0154e", "#a9b507", "#b57b07",];
 const body = document.body;
 const player = document.querySelector(".player");
 const playerHeader = player.querySelector(".player__header");
@@ -182,5 +182,6 @@ playerPlayList.forEach((item, index) => {
     }
   });
 });
+
 
 
